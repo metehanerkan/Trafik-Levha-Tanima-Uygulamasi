@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Başlık -->
+        <TextView
+            android:text="Uygulama Hakkında"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Açıklama -->
+        <TextView
+            android:text="Bu uygulama, bilgisayardaki kamera aracılığıyla trafik levhalarını tanır ve tanınan levhaları Android cihazınıza göndererek sesli uyarı verir. Uygulamanın ana ekranında bu levhalar listelenir ve hız verileri görüntülenir."
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- IP Başlığı -->
+        <TextView
+            android:text="IP Adresi Neden Gerekli?"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- IP Açıklama -->
+        <TextView
+            android:text="Uygulama, bilgisayarınızda çalışan sunucuya bağlanmak için IP adresini kullanır. Bilgisayarın IP adresi değişirse (örneğin başka Wi-Fi ağına geçildiğinde), aşağıdan yeni IP adresini girip kaydedebilirsiniz.\n\nBilgisayarınızın IP adresini öğrenmek için Windows'ta cmd açıp 'ipconfig' komutunu kullanabilirsiniz.(Hem bilgisayarın hem telefonun aynı Wifi ağında olmasına dikkat ediniz.)"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- IP Giriş Alanı -->
+        <TextView
+            android:text="WebSocket Sunucu IP Adresi:"
+            android:textSize="15sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editIpAddress"
+            android:hint="Örn: 192.168.137.1"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+
+        <!-- Kaydet Butonu -->
+        <Button
+            android:id="@+id/buttonSaveIp"
+            android:text="Kaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:text="❓ Sıkça Sorulan Sorular (SSS)"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="• Uygulama internete ihtiyaç duyar mı?\nHayır. Uygulama yerel ağ üzerinden çalışır, internet bağlantısı gerekmez.\n\n• IP adresini nasıl bulabilirim?\nBilgisayarınızda 'cmd' açıp 'ipconfig' yazın.\n\n• Neden sesli uyarı gelmiyor?\nTelefonunuzun sesi kapalı olabilir ya da model etiketi bilinmiyor olabilir.(Ayarlardan 'Tercih edilen motor' olarak aratıp google ses tanıma motorunu seçebilirsiniz.)\n\n• Kamerayı ben mi açacağım?\nHayır. Kamera bilgisayarda otomatik açılır ve model çalışır durumda olmalıdır.\n\n • Aynı levha tekrar tekrar listeleniyor. Bu normal mi?\nEvet. Aynı levha tekrar algılanırsa, listeye yeniden eklenir. Bu durum modelin sürekli çalışmasından kaynaklanır.\n\n • IP adresini girdim ama hala çalışmıyor. Ne yapmalıyım?\n- Bilgisayar ile telefon aynı ağa bağlı mı?\n- Bilgisayarda model çalışıyor mu?\n- Telefonun sesi açık mı?\n- IP doğru girildi mi?\nBunları kontrol edip uygulamayı yeniden açınız."
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
+
+

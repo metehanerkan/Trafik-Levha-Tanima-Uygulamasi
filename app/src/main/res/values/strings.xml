@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Akıllı Trafik</string>
+    <string name="title_home">Ana Sayfa</string>
+    <string name="title_chart">Grafik</string>
+    <string name="title_map">Harita</string>
+    <string name="tittle_help">Yardım</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
