@@ -37,5 +37,5 @@ Bu proje, bir uç cihazdan (Raspberry Pi/PC) gelen yapay zeka verilerini WebSock
 
 ## 👨‍💻 Geliştirici
 **Metehan Erkan**
-- [LinkedIn]([https://www.linkedin.com/in/metehan-erkan](https://www.linkedin.com/in/metehan-erkan-b9a52a1b8/)/)
+- [LinkedIn](https://www.linkedin.com/in/metehan-erkan-b9a52a1b8/)
 - [GitHub](https://github.com/metehanerkan)
