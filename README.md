@@ -32,10 +32,10 @@ Bu proje, bir uç cihazdan (Raspberry Pi/PC) gelen yapay zeka verilerini WebSock
 
 1. Projeyi bilgisayarınıza clone'layın: `git clone https://github.com/kullaniciadin/proje-adin.git`
 2. `local.properties` dosyanıza Google Maps API anahtarınızı ekleyin.
-3. WebSocket sunucu IP adresini `MainActivity` içindeki `initWebSocket` kısmından güncelleyin.
+3. WebSocket sunucu IP adresini `Yardım` butonuna tıklayarak yardım sayfasından güncelleyin.
 4. Android Studio üzerinden cihazınıza yükleyin.
 
 ## 👨‍💻 Geliştirici
 **Metehan Erkan**
-- [LinkedIn](https://www.linkedin.com/in/metehan-erkan/)
+- [LinkedIn]([https://www.linkedin.com/in/metehan-erkan](https://www.linkedin.com/in/metehan-erkan-b9a52a1b8/)/)
 - [GitHub](https://github.com/metehanerkan)
